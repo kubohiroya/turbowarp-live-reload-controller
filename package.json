@@ -1,18 +1,18 @@
 {
-  "name": "@kubohiroya/turbowarp-preview-runtime",
+  "name": "@kubohiroya/turbowarp-live-reload-controller",
   "version": "0.2.0",
-  "description": "App-neutral preview protocol and reload primitives for TurboWarp apps.",
+  "description": "App-neutral live reload controller and preview protocol for TurboWarp apps.",
   "author": "Hiroya Kubo <hiroya@cuc.ac.jp>",
   "license": "MPL-2.0",
   "type": "module",
   "sideEffects": false,
-  "homepage": "https://github.com/kubohiroya/turbowarp-preview-runtime#readme",
+  "homepage": "https://github.com/kubohiroya/turbowarp-live-reload-controller#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kubohiroya/turbowarp-preview-runtime.git"
+    "url": "git+https://github.com/kubohiroya/turbowarp-live-reload-controller.git"
   },
   "bugs": {
-    "url": "https://github.com/kubohiroya/turbowarp-preview-runtime/issues"
+    "url": "https://github.com/kubohiroya/turbowarp-live-reload-controller/issues"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,8 +1,8 @@
-# turbowarp-preview-runtime
+# turbowarp-live-reload-controller
 
 [日本語](README.ja.md)
 
-`@kubohiroya/turbowarp-preview-runtime` provides app-neutral preview protocol and live reload primitives for TurboWarp applications.
+`@kubohiroya/turbowarp-live-reload-controller` provides app-neutral preview protocol and live reload primitives for TurboWarp applications.
 
 It does not parse app DSLs, own diagnostics, read files, or render app-specific UI. App packages inject source frontend results, copy, diagnostics, and runtime actions.
 
@@ -73,7 +73,7 @@ still rejected.
 ## Example
 
 ```ts
-import {createPreviewProtocolController} from '@kubohiroya/turbowarp-preview-runtime';
+import {createPreviewProtocolController} from '@kubohiroya/turbowarp-live-reload-controller';
 
 const preview = createPreviewProtocolController({
   requiredCapabilities: ['transport.v1'],

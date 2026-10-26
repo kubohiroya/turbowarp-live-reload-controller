@@ -121,6 +121,7 @@ An app whose wire messages carry more than the adapter models — its own ack pa
 ## Development
 
 ```bash
+npm install --global corepack@latest
 corepack enable
 pnpm install --frozen-lockfile
 pnpm run check

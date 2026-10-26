@@ -120,6 +120,7 @@ adapter が持つ以上のものを wire message が運ぶ app — 独自の ack
 ## 開発
 
 ```bash
+npm install --global corepack@latest
 corepack enable
 pnpm install --frozen-lockfile
 pnpm run check

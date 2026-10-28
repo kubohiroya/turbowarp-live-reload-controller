@@ -1,8 +1,12 @@
 {
   "name": "@kubohiroya/turbowarp-live-reload-controller",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "App-neutral live reload controller and preview protocol for TurboWarp apps.",
-  "author": "Hiroya Kubo <hiroya@cuc.ac.jp>",
+  "author": {
+    "name": "Hiroya Kubo",
+    "email": "hiroya@cuc.ac.jp",
+    "url": "https://github.com/kubohiroya"
+  },
   "license": "MPL-2.0",
   "type": "module",
   "sideEffects": false,
